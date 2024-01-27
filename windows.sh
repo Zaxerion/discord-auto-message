@@ -2,6 +2,8 @@
 #
 # CREATED By NIXPOIN.COM
 #
+mount -o remount,rw /mnt
+
 echo "Pilih OS yang ingin anda install"
 echo "	1) Windows 10 rill"
 echo "	2) Windows 2016"
@@ -99,3 +101,5 @@ cd Start* || cd start*; \
 wget https://dw53.uptodown.com/dwn/o4kz4s1Ow4U-Tnwo9AS-tP9QmXstBRv67tC_wN6Bf5Z50i8aPzxcmSwvKjvhjXPqbZgS4g0Ys9TVbQniqjQjU2c-hTj-XQpgv2eOXU47jJ0pVQpRZ4hzn9JExPs_2hGh/VOyMtc4HnT0XweX9zer5j4qGVmDBAONt227BrfYjoM1laeFoU5l9_1HUWold9vQjQUGPlLGdCXxfnlrAP8YEoU0kvu8hu32O2F_cCjUMTTBQWbj61vl5UEGqYVcL_hSk/S4AUqA6LXy5CefEzyBInQlKmp2VWRDv21Q89H4xpNOdwmx_kqqIl29fNJJVST5UEDxeRDeWRjWhESqLMdP4YbOmPcshEZ23BO4rec5XqwoA=/mozilla-firefox-122-0.exe
 cp -f /tmp/net.bat net.bat
 cp -f /tmp/dpart.bat dpart.bat
+
+mount -o remount,ro /mnt
