@@ -5,8 +5,8 @@
 mount -o remount,rw /mnt
 
 echo "Pilih OS yang ingin anda install"
-echo "	1) Windows 10 rill"
-echo "	2) Windows 2016"
+echo "	1) Windows 11 rill"
+echo "	2) Windows 10"
 echo "	3) Windows 2012"
 echo "	4) Windows 10"
 echo "	5) Windows 2022"
@@ -16,7 +16,7 @@ read -p "Pilih [1]: " PILIHOS
 
 case "$PILIHOS" in
 	1|"") PILIHOS="https://bit.ly/3xWPgHG"  IFACE="Ethernet Instance 0 2";;
-	2) PILIHOS="https://files.sowan.my.id/windows2016.gz"  IFACE="Ethernet Instance 0 2";;
+	2) PILIHOS="https://archive.org/download/10.ENT.x64.EVAL.USEnglish_201902/10.ENT.x64.EVAL.US-English.gz "  IFACE="Ethernet Instance 0 2";;
 	3) PILIHOS="https://files.sowan.my.id/windows2012.gz"  IFACE="Ethernet";;
 	4) PILIHOS="https://files.sowan.my.id/windows10.gz"  IFACE="Ethernet Instance 0 2";;
 	5) PILIHOS="https://files.sowan.my.id/windows2022.gz"  IFACE="Ethernet Instance 0 2";;
